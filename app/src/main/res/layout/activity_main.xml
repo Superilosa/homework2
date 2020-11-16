@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button00"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button01"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button02"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button10"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button11"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button12"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button20"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button21"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button22"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:text="Reset"
+            android:textAllCaps="false"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>
